@@ -1,0 +1,13 @@
+Package: io.Alex1s.github.ScriptInterpeter
+Version: 0.1
+Section: Games
+Maintainer: Alex1s <Alex1s@hasnoemail.com>
+Depends: 
+Architecture: iphoneos-arm
+Filename: debs//io.Alex1s.github.ScriptInterpeterV0.1.deb
+Size: 10000
+MD5sum: 
+Description: A Script Interpeter that adds comments for AutoTouch scripts. 
+Name: ScriptInterpeter
+Author: Alex1s <nadis.lai@hasnoemail.com>
+Icon: 
