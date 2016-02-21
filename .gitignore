@@ -1,2 +1,3 @@
 buildPackages.sh
 push.sh
+dpkg-scanpackages
