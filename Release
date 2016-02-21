@@ -1,8 +1,8 @@
 Origin: Alex1s Repository
-Label: ALex1s Repository
-Suite: unstable
+Label: Alex1s Repository
+Suite: stable
 Version: 0.1
-Codename: alex1s.github.io
+Codename: alex1s repo
 Architectures: iphoneos-arm
 Components: main
-Description: Things from Alex1s :]
+Description: Things from Alex1s. :]
