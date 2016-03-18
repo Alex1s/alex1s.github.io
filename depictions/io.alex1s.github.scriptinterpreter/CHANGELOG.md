@@ -1,7 +1,13 @@
 # Change Log
 All notable changes to this project will be documented in this file.
+##Unreleased
 
-## [Unreleased]
+## [0.2.2] - 2016-03-18
+##Added
+- lua block comment highlighting
+
+###Fixed
+- bug that would case a touch near the top edge of the troopbar to be interpreted as a troop deployment
 
 ## [0.2.1] - 2016-03-08
 ### Fixed
@@ -12,7 +18,7 @@ All notable changes to this project will be documented in this file.
 - Settings: convert resolution, convert orientation, use tap(x, y) commands
 - support for entering scripts with multiple commands per line
 
-## Changed
+### Changed
 - many minor things in the UI
 - simpler comment syntax
 
