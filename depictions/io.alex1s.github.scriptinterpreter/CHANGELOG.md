@@ -1,6 +1,15 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 ##Unreleased
+##Added
+- option to mirror troop deployments on the center x-axis
+- custom comment formatting
+- custom comment coloring
+- hero ability detection
+###Changed
+- no more uninteresting debug information shown
+###Fixed
+- bug that if a usleep was the last command of an script, it was not removed
 
 ## [0.2.2] - 2016-03-18
 ##Added
