@@ -1,6 +1,8 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 ##Unreleased
+
+## [0.2.3] - 2016-03-21
 ##Added
 - option to mirror troop deployments on the center x-axis
 - custom comment formatting
