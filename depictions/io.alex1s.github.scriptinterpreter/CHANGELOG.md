@@ -38,7 +38,7 @@ All notable changes to this project will be documented in this file.
 - keyboard hiding text when entering a script
 - occasionally occuring bug causing the wave count to be incorrect
 
-## 0.1.0 - 2016-02-37
+## 0.1.0 - 2016-02-27
 ### Added
 - Initial release of Script Interpeter, a tool for interpreting
 Clash of Clans AutoTouch scripts created on iPads with normal and retina resolution
