@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file.
 ##Unreleased
 
+## [0.2.4] - 2016-03-24
+###Added
+- ability to view the changelog and knows issues from inside the app
+###Fixed
+- a bug that caused the settings to be uneditable
+
 ## [0.2.3] - 2016-03-21
 ##Added
 - option to mirror troop deployments on the center x-axis
