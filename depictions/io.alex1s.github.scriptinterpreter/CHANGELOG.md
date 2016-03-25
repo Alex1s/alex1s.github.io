@@ -3,6 +3,7 @@ All notable changes to this project will be documented in this file.
 ##Unreleased
 ###Fixed:
 - a bug that would not let the mirroring/orientation conversion settings be appled, if the resolution is beeing converted at the same time
+- a bug that would cause the general comment color not to be updated when changed in settings
 
 ## [0.2.4] - 2016-03-24
 ###Added
