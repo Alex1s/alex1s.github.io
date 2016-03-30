@@ -1,6 +1,8 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 ##Unreleased
+
+## [0.3.0] - 2016-03-30
 ###Fixed:
 - a bug that would not let the mirroring/orientation conversion settings be appled, if the resolution is beeing converted at the same time
 - a bug that would cause the general comment color not to be updated when changed in settings
@@ -8,8 +10,16 @@ All notable changes to this project will be documented in this file.
 ## [0.2.4] - 2016-03-24
 ###Added
 - ability to view the changelog and knows issues from inside the app
+- a donate button in the "More" section
+- ability to load scripts directly from the files
+- ability to save scripts directly to a file
+- ability to
 ###Fixed
 - a bug that caused the settings to be uneditable
+- a bug that would cause mirroring not to be applyed under some conditions
+- a bug that would cause the comment color not to be updated in the "Paste Script" Scene
+- a bug that would cause a crash when pressing the "Interpret" if the script contains a troop selected touch near the edge of the screen
+- a bug that would cause the slot in which the troops are to be sorted in order they got selected in the "Select Troops" Scene
 
 ## [0.2.3] - 2016-03-21
 ##Added
