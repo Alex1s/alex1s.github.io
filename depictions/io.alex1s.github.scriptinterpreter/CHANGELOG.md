@@ -1,6 +1,8 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 ##Unreleased
+###Added
+- the ability to handle scripts that have touchUp commands with no corresponding touchDown command; it will just ignore these touchUp commands
 
 ## [0.3.0] - 2016-03-30
 ###Fixed:
