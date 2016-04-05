@@ -1,8 +1,15 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 ##Unreleased
+
+## [0.3.1] - 2016-04-05
 ###Added
 - the ability to handle scripts that have touchUp commands with no corresponding touchDown command; it will just ignore these touchUp commands
+- a error message if a touchDown(id, x, y) with no corresponding touchUp(id, x, y) appears (no longer crashing now)
+###Fixed
+- a bug that would cause single line comments to appear then using multiline and vice versa
+- a bug that would cause a crash if a unrelated touchUp(id, x, y) appeared
+- a bug that would cause multiple usleeps(us) to appear on longer touches
 
 ## [0.3.0] - 2016-03-30
 ###Fixed:
