@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 ##Unreleased
 
 ## [0.3.2] - 2016-04-09
+###Fixed
+- a bug that caused the script not to arrive in the "Script Output" Scene
+
+## [0.3.2] - 2016-04-09
 ###Added
 - beta version of the script editor that allows usleep(us) editing
 ###Fixed
