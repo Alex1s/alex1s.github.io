@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file.
 ##Unreleased
 
+## [0.3.2] - 2016-04-09
+###Added
+- beta version of the script editor that allows usleep(us) editing
+###Fixed
+- a bug that caused text editing in the "Paste Script" view to be all messed up
+
 ## [0.3.1] - 2016-04-05
 ###Added
 - the ability to handle scripts that have touchUp commands with no corresponding touchDown command; it will just ignore these touchUp commands
