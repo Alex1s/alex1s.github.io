@@ -2,7 +2,12 @@
 All notable changes to this project will be documented in this file.
 ##Unreleased
 
-## [0.3.2] - 2016-04-09
+## [0.3.4] - 2016-05-30
+###Added
+- support for new troops: Bowler, Baby Dragon, Miner
+- support for new spells: Clone Spell, Skeleton Spell
+
+## [0.3.3] - 2016-04-09
 ###Fixed
 - a bug that caused the script not to arrive in the "Script Output" Scene
 
