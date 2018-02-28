@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Usleep Replacer</title>
+    <style>
+        textarea {
+            width: 500px;
+            height:200px;
+        }
+    </style>
+</head>
+<body>
+    <label>usleep time</label><br>
+    <input type="number" id="usleep">
+
+    <br>
+
+    <label>script</label><br>
+    <textarea id="input"></textarea>
+
+    <br>
+
+    <label>output</label><br>
+    <textarea id="output" readonly></textarea>
+
+    <br>
+
+    <button id="replace">replace</button>
+    <button id="copy">copy to clipboard</button>
+
+    <script>
+        document.getElementById("replace").addEventListener("click", function () {
+            document.getElementById("output").innerHTML = document.getElementById("input").value.replace(/usleep\([0-9]*(\.[0-9]*)?\)/g, "usleep(" + document.getElementById("usleep").value + ")")
+        })
+        document.getElementById("copy").addEventListener("click", function () {
+            document.getElementById("output").select()
+            document.execCommand("copy")
+        })
+    </script>
+</body>
+</html>
