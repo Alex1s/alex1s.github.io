@@ -22,20 +22,15 @@
     <br>
 
     <label>output</label><br>
-    <textarea id="output" readonly></textarea>
+    <textarea id="output">do not write anything in here</textarea>
 
     <br>
 
     <button id="replace">replace</button>
-    <button id="copy">copy to clipboard</button>
 
     <script>
         document.getElementById("replace").addEventListener("click", function () {
             document.getElementById("output").innerHTML = document.getElementById("input").value.replace(/usleep\([0-9]*(\.[0-9]*)?\)/g, "usleep(" + document.getElementById("usleep").value + ")")
-        })
-        document.getElementById("copy").addEventListener("click", function () {
-            document.getElementById("output").select()
-            document.execCommand("copy")
         })
     </script>
 </body>
